@@ -1,0 +1,33 @@
+*
+::before
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: white;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(rgba(128, 0, 128, 0.779), 70%, rgb(98, 98, 235), rgb(72, 84, 247));
+    background-repeat: no-repeat;
+}
+
+.Container {
+    background-color: red;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;;
+}
+
+.Tareas{
+    height: 3rem;
+    display: flex;
+
+    
+
+}
+
